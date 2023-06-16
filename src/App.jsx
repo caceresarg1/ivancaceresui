@@ -1,16 +1,9 @@
-import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
-// import MenuIcon from '';
+import { AppRouter } from './components/AppRouter';
+import "./App.css";
 
 const Header = () => {
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <IconButton edge="start" color="inherit" aria-label="menu">
-          {/* <MenuIcon /> */}
-        </IconButton>
-        <Typography variant="h6">Mi Aplicación</Typography>
-      </Toolbar>
-    </AppBar>
+        <AppRouter/>
   );
 };
 
